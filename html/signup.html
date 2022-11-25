@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        .div1{
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkE6sLZB2Wfn9W55O_i3GhG0ZoTux1EH6ZCw&usqp=CAU");
+            
+        }
+        h1{
+            color:rgb(204, 19, 19);
+            font-weight: bold;
+        }
+        input[type=text], input[Type=password]{
+            width: 100%;
+            font-size: 22px;
+            padding: 6px;
+            margin: 12px 0px 22px 0px;
+            background-color: rgb(192, 236, 170);
+        }
+        *{
+            box-sizing: border-box;
+        }
+        label{
+            font-size: 20px;
+        }
+        button{
+            font-size: 20px;
+            background-color: red;
+            color: white;
+            padding: 15px 20px;
+            margin: 10px 0px;
+            cursor: pointer;
+        }
+        .btn2{
+            background-color: green;        
+        }
+    </style>
+</head>
+<body>
+    <form class="div1">
+        <div>
+            <h1>Sign Form</h1>
+            <label><b>Email</b></label>
+            <input type="text" placeholder="Enter your email" required><br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter your password"><br>
+            <label><b>Confirm password</b></label>
+            <input type="password" placeholder="enter confirm password"><br>
+            <label>
+            <input type="checkbox" checked="checked" names="remember">Remember me    
+            </label>
+            <p>i agree t the terms and conditions mentioned in<a href="#">Terms & Privacy
+            </a></p>
+            <div>
+                <button class="btn1">Cancel</button>
+                <button class="btn2">Signup</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>

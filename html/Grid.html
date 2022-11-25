@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Grid</title>
+    <style type="text/css">
+          .one{
+            grid-area:header;
+            border: 3px solid rgb(26, 198, 61);
+            
+          }
+          .two{
+            grid-row:left;
+            border: 3px solid red;
+          }
+          .three{
+            grid-area:center;
+            border: 3px solid rgb(114, 52, 237);
+          }
+          .four{
+            grid-area:right;
+            border: 3px solid rgb(28, 173, 231);
+          }
+          .five{
+            grid-area:footer;
+            border: 3px solid rgb(212, 247, 55);
+          }
+          .grid-container{
+            display:grid;
+            grid-template-areas: 'header header header header header header' 'left center center center right right' 'left footer footer footer footer footer';
+            gap: 6px;
+          }
+          .grid-container> div{
+            background-color: rgb(32, 77, 77);
+            text-align: center;
+            font-size: 20px;
+            color: red;
+          }
+
+          .img{
+            border-radius: ;
+          }
+    </style>
+</head>
+<body>
+    <h1>Learning Grid</h1>
+    <p> <#img src="anime girl 3.webp"> Hello i am sagar</p>
+    <div class="grid-container">
+        <div class="one">Heade Naruto[a] is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).r</div>
+        <div class="two"><ul>
+            <li>Naruto</li>
+            <li>Kakashi</li>
+            <li>Itachi</li>
+        </ul>
+            Left Naruto[a] is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).</div>
+        <div class="three">Center Naruto[a] is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).</div>
+        <div class="four">Right Naruto[a] is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).</div>
+        <div class="five">Footer Naruto[a] is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto: Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the following year, and Naruto (1997).</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+import pyautogui as pt 
+from time import sleep
+
+limit = input("enter limit:")
+message = input("enter message:")
+i = 0
+ 
+while i<int(limit):
+    i+=1
+    pt.typewrite(message)
+    pt.press("enter")
+
+    sleep(2)
+
+
+
+
